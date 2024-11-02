@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.elements {
+  background: #683292;
+  position: relative;
+  overflow: hidden;
+  z-index: 999999px;
+}
+
+.elements::before{
+  content: "";
+  position: absolute;
+  top: -30%;
+  left: 50%;
+  background-color: #f83d8e;
+  height: 2500px;
+  width: 2500px;
+  rotate: 190deg;
+  z-index: -99999px;
+
+
+}
+
+
+
+.bee h4 , .bee h1, .ben h1 {
+  font-family: "Berkshire Swash", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.bra{
+  font-family: "Berkshire Swash", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.html,body{
+  font-family: "Archivo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
